@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Header Styling --- */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.main-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  background-color: #0372f1;
+  color: #f4f7fa;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid #ccc;
+}
