@@ -208,7 +208,7 @@ body {
   border: 1px solid #eee;
 }
 
-/* --- Location and Salary Row (Above Tags) --- */
+/* --- Location and Salary Row  --- */
 .location-salary-row {
   display: flex;
   align-items: center;
@@ -253,7 +253,6 @@ body {
 
 .job-type-tag-bottom {
   font-weight: 600;
-  /* Uses the general detail-tag styles but with a stronger appearance */
 }
 
 /* Edit and Delete buttons lie at the bottom */
