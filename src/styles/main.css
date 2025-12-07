@@ -1,3 +1,4 @@
+/* --- General Reset and Setup --- */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f7fa;
@@ -5,8 +6,15 @@ body {
   padding: 0;
 }
 
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* --- Header Styling --- */
 .main-header {
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +36,11 @@ body {
   font-weight: 500;
 }
 
+.main-nav a:hover,
+.main-nav a.active-link {
+  color: #4a90e2;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -37,12 +50,338 @@ body {
 .user-avatar {
   width: 30px;
   height: 30px;
-  background-color: #0372f1;
-  color: #f4f7fa;
+  background-color: #e0e0e0;
+  color: #4a90e2;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   border: 1px solid #ccc;
+}
+
+/* --- Main Content Layout --- */
+.main-title {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.job-count {
+  font-weight: bold;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.main-layout {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+/* --- Filter Panel --- */
+.filter-panel {
+  flex: 0 0 250px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 20px;
+}
+
+.filter-panel h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-group {
+  margin-bottom: 15px;
+}
+
+.filter-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.filter-group input,
+.filter-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* --- Job List --- */
+.job-list-container {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.no-results-message {
+  padding: 20px;
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+}
+/* --- Job Card  --- */
+
+.job-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-header-section {
+  display: flex;
+  align-items: flex-start; /* Align content to the top */
+  margin-bottom: 10px;
+}
+
+.job-title-info {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+/* Ensure title and date are on the same row */
+.job-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3px;
+}
+
+.job-title-info h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #333;
+  max-width: 75%;
+}
+
+.company-name {
+  margin: 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.posted-date {
+  color: #999;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+
+.job-logo-placeholder {
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #4a90e2;
+  border: 1px solid #eee;
+}
+
+/* --- Location and Salary Row (Above Tags) --- */
+.location-salary-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.location {
+  color: #666;
+}
+
+.salary {
+  color: #008000;
+}
+
+/* --- Middle Tags (Seniority and Employment) --- */
+.job-details-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.detail-tag {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* --- Action Footer (Job Type Tag and Actions) --- */
+.job-action-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  font-size: 0.9em;
+}
+
+.job-type-tag-bottom {
+  font-weight: 600;
+  /* Uses the general detail-tag styles but with a stronger appearance */
+}
+
+/* Edit and Delete buttons lie at the bottom */
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85em;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.action-btn:hover {
+  opacity: 1;
+}
+
+.edit-btn {
+  background-color: #e0f0ff;
+  color: #4a90e2;
+}
+
+.delete-btn {
+  background-color: #ffe0e0;
+  color: #e24a4a;
+}
+/* --- Reusable Button (from Button.jsx) --- */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3a7fd1;
+}
+
+/* --- Modal & Job Form Styling --- */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #999;
+}
+
+.job-form .form-group-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.job-form .full-width {
+  grid-column: span 2;
+}
+
+.job-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn-cancel {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-publish,
+.btn-save {
+  background-color: #4a90e2;
+  color: white;
 }

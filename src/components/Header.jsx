@@ -1,6 +1,6 @@
-import React from "react";
+import Button from "./reusable/Button";
 
-const Header = () => {
+const Header = ({ openAddModal }) => {
   return (
     <header className='main-header'>
       <div className='logo-container'>
@@ -11,11 +11,13 @@ const Header = () => {
           Jobs
         </a>
         <a href='#companies'>Companies</a>
-        <a href='#jobs'>About Us</a>
+        <a href='#about'>About Us</a>
       </nav>
       <div className='header-actions'>
-        <button>➕ Add New Job</button>
-        <div className='user-avatar'>A </div>
+        <Button variant='primary' onClick={openAddModal}>
+          ➕ Add New Job
+        </Button>
+        <div className='user-avatar'>A</div>
       </div>
     </header>
   );

@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior Backend Engineer",
       "company": "Binance",
       "logo": "binance.png",
@@ -11,10 +11,14 @@
       "seniorityLevel": "Senior",
       "location": "Remote",
       "salary": 15000,
-      "skills": ["Node.js", "MongoDB", "AWS"]
+      "skills": [
+        "Node.js",
+        "MongoDB",
+        "AWS"
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Sr. Frontend Engineer",
       "company": "Tech Innovators",
       "logo": "tech.png",
@@ -24,10 +28,14 @@
       "seniorityLevel": "Senior",
       "location": "United States",
       "salary": 12000,
-      "skills": ["React", "TypeScript", "Redux"]
+      "skills": [
+        "React",
+        "TypeScript",
+        "Redux"
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "UX/UI Designer",
       "company": "Creative Minds",
       "logo": "creative.png",
@@ -37,10 +45,14 @@
       "seniorityLevel": "Mid-level",
       "location": "Hong Kong",
       "salary": 7000,
-      "skills": ["Figma", "Sketch", "Prototyping"]
+      "skills": [
+        "Figma",
+        "Sketch",
+        "Prototyping"
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Site Reliability Engineer",
       "company": "Tencent",
       "logo": "tencent.png",
@@ -48,12 +60,16 @@
       "jobType": "Engineer",
       "employmentType": "Part Time",
       "seniorityLevel": "Senior",
-      "location": "Remote",
+      "location": "Hong Kong",
       "salary": 9000,
-      "skills": ["Kubernetes", "Linux", "Python"]
+      "skills": [
+        "Kubernetes",
+        "Linux",
+        "Python"
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Marketing Analyst",
       "company": "Global Sales Co.",
       "logo": "global.png",
@@ -63,10 +79,14 @@
       "seniorityLevel": "Junior",
       "location": "United States",
       "salary": 4500,
-      "skills": ["SEO", "Analytics", "Excel"]
+      "skills": [
+        "SEO",
+        "Analytics",
+        "Excel"
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Cloud Architect",
       "company": "Data Fortress",
       "logo": "datafortress.png",
@@ -76,10 +96,14 @@
       "seniorityLevel": "Senior",
       "location": "Remote",
       "salary": 18000,
-      "skills": ["Azure", "GCP", "Security"]
+      "skills": [
+        "Azure",
+        "GCP",
+        "Security"
+      ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Full Stack Developer (PHP)",
       "company": "Web Solutions Inc.",
       "logo": "web.png",
@@ -89,10 +113,14 @@
       "seniorityLevel": "Mid-level",
       "location": "Hong Kong",
       "salary": 6000,
-      "skills": ["PHP", "MySQL", "JavaScript"]
+      "skills": [
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Intern - Product Design",
       "company": "Innovate Ltd.",
       "logo": "innovate.png",
@@ -102,10 +130,13 @@
       "seniorityLevel": "Intern",
       "location": "United States",
       "salary": 2000,
-      "skills": ["Wireframing", "User Research"]
+      "skills": [
+        "Wireframing",
+        "User Research"
+      ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Technical Sales Specialist",
       "company": "Market Movers",
       "logo": "market.png",
@@ -115,10 +146,13 @@
       "seniorityLevel": "Senior",
       "location": "Remote",
       "salary": 10000,
-      "skills": ["Salesforce", "Tech Knowledge"]
+      "skills": [
+        "Salesforce",
+        "Tech Knowledge"
+      ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Junior Python Engineer",
       "company": "Code Masters",
       "logo": "codemasters.png",
@@ -128,10 +162,14 @@
       "seniorityLevel": "Junior",
       "location": "Hong Kong",
       "salary": 4000,
-      "skills": ["Python", "Django", "SQL"]
+      "skills": [
+        "Python",
+        "Django",
+        "SQL"
+      ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Senior React Developer",
       "company": "Frontline Apps",
       "logo": "frontline.png",
@@ -141,10 +179,14 @@
       "seniorityLevel": "Senior",
       "location": "Remote",
       "salary": 14000,
-      "skills": ["React", "Redux", "TypeScript"]
+      "skills": [
+        "React",
+        "Redux",
+        "TypeScript"
+      ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Marketing Coordinator",
       "company": "Brand Builders",
       "logo": "brand.png",
@@ -154,10 +196,13 @@
       "seniorityLevel": "Mid-level",
       "location": "United States",
       "salary": 3500,
-      "skills": ["Social Media", "Copywriting"]
+      "skills": [
+        "Social Media",
+        "Copywriting"
+      ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Network Architect",
       "company": "Connect All",
       "logo": "connectall.png",
@@ -167,10 +212,14 @@
       "seniorityLevel": "Mid-level",
       "location": "Hong Kong",
       "salary": 11000,
-      "skills": ["Cisco", "Security", "Networking"]
+      "skills": [
+        "Cisco",
+        "Security",
+        "Networking"
+      ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Associate Designer",
       "company": "Aesthetic Works",
       "logo": "aesthetic.png",
@@ -180,10 +229,13 @@
       "seniorityLevel": "Junior",
       "location": "Remote",
       "salary": 4000,
-      "skills": ["Illustrator", "Photoshop"]
+      "skills": [
+        "Illustrator",
+        "Photoshop"
+      ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "DevOps Engineer Intern",
       "company": "Cloud Pioneers",
       "logo": "cloud.png",
@@ -193,7 +245,32 @@
       "seniorityLevel": "Intern",
       "location": "United States",
       "salary": 2500,
-      "skills": ["Docker", "Jenkins"]
+      "skills": [
+        "Docker",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "58cb",
+      "title": "React Developer",
+      "company": "Ewan Byte",
+      "jobType": "Engineer",
+      "employmentType": "Internship",
+      "seniorityLevel": "Mid-level",
+      "location": "United States",
+      "salary": 15000,
+      "postedDate": "December 7, 2025"
+    },
+    {
+      "id": "2c62",
+      "title": "Backend Developer",
+      "company": "B & B Soft Tech",
+      "jobType": "Engineer",
+      "employmentType": "Contract",
+      "seniorityLevel": "Senior",
+      "location": "Hong Kong",
+      "salary": 120000,
+      "postedDate": "December 7, 2025"
     }
   ]
 }
