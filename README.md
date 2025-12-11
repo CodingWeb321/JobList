@@ -1,6 +1,6 @@
 #  Job Listing Application (Frontend Internship Task)
 
-This project is a Job Listing Web Application developed using **React.js** and leverages a **local JSON Server** to simulate a backend API. It fulfills all requirements of the Frontend Internship Task, focusing on state management, asynchronous data handling, and faithful UI reproduction.
+This project is a Job Listing Web Application developed using **React.js** and leverages a **local JSON Server** to simulate a backend API. 
 
 ##  Features Implemented
 
